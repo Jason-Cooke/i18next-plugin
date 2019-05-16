@@ -60,7 +60,7 @@ To run the example app, go into the server and add you keys.
 - MILESTONE_ID // id of milestone (eg. 'Proofreading' ) that you want to pull translations from
 - CONSUMER_KEY // secret key to access API
 	
-Then 'npm run build' to transplile your configuration into build directory.
+Then 'npm run build' to transpile your configuration into build directory.
 
 If you just created a new project, check for the qoroba folder in 'root/example/locales', delete this folder if it exists. The plugin handles synching your source keys / strings from 'i18next/{{source language}}'. It will take all your source files, copy them over to the qordoba directory, then upload these files to qordoba and download and build folders and namespaces for all target languages.
 
